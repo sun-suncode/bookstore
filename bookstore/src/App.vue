@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <HelloWorld/>
+    <Set/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/index/Index.vue'
+import Set from './components/set/Set.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Set
   }
 }
 </script>
